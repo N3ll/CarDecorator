@@ -6,6 +6,7 @@ import decorators.ExtraEquipment;
 
 public class LeatherUpholstery extends ExtraEquipment {
 
+	protected int number;
 	public LeatherUpholstery(CarType car) {
 		this.car = car;
 	}
